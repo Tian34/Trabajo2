@@ -1,0 +1,82 @@
+.centro{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	height: 70%;
+	background-color: #161617;
+	border-radius: 1vw;
+	border: gray 0.1vw solid;
+	color: white;
+}
+
+
+.titulo{
+	top: 0%;
+	left: 0%;
+	width: 38%;
+	height: 20%;
+	background-color: #00FF87;
+	position: absolute;
+	opacity: 1;
+	cursor: default;
+	border-radius: 0.1vw;
+	border: white 0.5vw solid;
+	color: white;
+	font-size: 7vw;
+	font-family: 'Yusei Magic';
+	text-align: center;
+	animation-duration: 1s;
+  	animation-name: periodoi;
+}
+
+@keyframes periodoi {
+
+0%{top: 100%;
+	left: 100%;
+	font-size: 0vw;
+}
+
+100%{top: 0%;
+	left: 0%;
+	font-size: 7vw;
+}
+}
+
+
+.actividad{
+	position: relative;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+	border-radius: 1vw;
+	background-color: #1A1A1B;
+}
+
+.tactividad{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 20%;
+	height: 10%;
+	font-size: 2vw;
+	font-family: 'Architects Daughter';
+	text-align: center;
+	border-radius: 1vw;
+	border: gray 0.1vw solid;
+	background-color: #003F28;
+}
+
+.texto{
+	
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	width: 80%;
+	height: 50%;
+	font-size: 2vw;
+	font-family: 'Yusei Magic';
+	text-align: center;
+
+}
