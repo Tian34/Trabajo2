@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Tarea 2 </title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body bgcolor="#B2F4FF">
+
+    <form>
+
+    <div class="caja">
+    	<div class="caja1">
+        	<label class="titulos">Numeros :</label><br>
+
+        		<div class="cnumeros">
+        	<input type="text" id="Nu1" placeholder="Numero 1" class="suma1">
+        	<br>
+        	<input type="text" id="Nu2" placeholder="Numero 2" class="suma2">
+        	<br>
+        	<input type="button" value="Sumar" onclick="a();" class="suma">
+        		</div>
+
+        	<br>
+        	<br>
+
+        	<label class="titulos1">Resultado :</label><br>
+        		
+        		<div class="cresul">
+        	<input type="text" id="R" value="Resultado" class="resul">
+        		</div>
+    	</div>
+        	<br>
+        	<br>
+        <div class="caja2">
+        	<label class="titulos2">Busqueda :</label><br>
+
+        		<div class="cbusq">
+        	<input type="text" id="Bus" placeholder="Numero de posicion" class="busq">
+        	<br>
+        	<input type="button" value="Buscar" onclick="b();" class="btbusq">
+        	<br>
+        	<br>
+        	<input type="text" id="R2" value="Busqueda" class="rbusq">
+        		</div>
+
+        </div>
+
+        <div class="ctitulo">Calculadora : </div>
+
+	</div>
+
+    </form>
+
+
+
+    <script type="text/javascript">
+    var c = [];
+    var Con = 0;
+    function a() {
+        var n1 = document.getElementById("Nu1");
+        var n2 = document.getElementById("Nu2");
+        var re = document.getElementById("R");
+        sum = Number(n1.value) + Number(n2.value);
+        c.push(sum);
+        re.value = sum;
+        console.log(c);
+        }
+
+    function b() {
+        var a1 = document.getElementById("Bus");
+        var re = document.getElementById("R2");
+        re.value = c[a1.value - 1]
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+.caja{
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	width: 60%;
+	height: 50%;
+	background-color: #16A7FF;
+	border-radius: 5px;
+}
+
+.caja1{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	width: 60%;
+	height: 80%;
+	background-color: #70DAFF;
+	border-radius: 5px;
+}
+.caja2{
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	width: 25%;
+	height: 80%;
+	background-color: #70DAFF;
+	border-radius: 5px;	
+}
+
+.titulos{
+	position: absolute;
+	background-color: #2082FF;
+	top: 7%;
+	left: 6%;
+	height: 13%;
+	width: 35%;
+	color: white;
+	font-size: 1.5vw;
+	font-family: 'oswald';
+	text-align: center;
+	border-radius: 1vw;
+	
+
+}
+
+.titulos1{
+	position: absolute;
+	background-color: #2082FF;
+	top: 7%;
+	right: 6%;
+	height: 13%;
+	width: 35%;
+	color: white;
+	font-size: 1.5vw;
+	font-family: 'oswald';
+	text-align: center;
+	border-radius: 1vw;
+	
+
+}
+
+.titulos2{
+	position: absolute;
+	background-color: #2082FF;
+	top: 7%;
+	left: 6%;
+	height: 13%;
+	width: 45%;
+	color: white;
+	font-size: 1.5vw;
+	font-family: 'oswald';
+	text-align: center;
+	border-radius: 1vw;
+	
+
+}
+
+
+.cnumeros{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	width: 40%; 
+	height: 55%;
+	background-color: #2082FF;
+	border-radius: 5px;
+	}
+
+.suma1{
+	position: absolute;
+	top: 2%;
+	left: 1%;
+	width: 45%; 
+	height: 46%;
+	font-size: 1.4vw;
+	text-align: center;
+	border-radius: 5px;
+	
+	}
+
+.suma2{
+	position: absolute;
+	top: 2%;
+	right: 1%;
+	width: 45%; 
+	height: 46%;
+	font-size: 1.4vw;
+	text-align: center;
+	border-radius: 5px;
+	
+
+	}
+
+.suma{
+	position: absolute;
+	bottom: 12%;
+	right: 1%;
+	width: 98%; 
+	height: 25%;
+	font-size: 1.5vw;
+}
+
+.cresul{
+	
+	position: absolute;
+	top: 27%;
+	right: 5%;
+	width: 40%; 
+	height: 50%;
+	background-color: blue;
+	border-radius: 5px;
+
+}
+
+.resul{
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	width: 100%; 
+	height: 100%;
+	font-size: 1.5vw;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.cbusq{
+	position: absolute;
+	top: 25%;
+	right: 10%;
+	width: 80%;
+	height: 50%;
+	background-color: #2082FF;
+	border-radius: 5px;
+}
+
+.busq{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	width: 45%; 
+	height: 50%;
+	font-size: 1.4vw;
+	text-align: center;
+	border-radius: 5px;
+	
+
+}
+
+.btbusq{
+	position: absolute;
+	top: 16.6%;
+	right: 2%;
+	width: 45%; 
+	height: 18%;
+	font-size: 1.4vw;
+	text-align: center;
+	
+	
+}
+
+.rbusq{
+	position: absolute;
+	bottom: -12%;
+	left: 0%;
+	width: 96%; 
+	height: 50%;
+	font-size: 1.4vw;
+	text-align: center;
+	border-radius: 5px;
+
+}
+
+.ctitulo{
+	position: absolute;
+	top: -15%;
+	left: -20%;
+	width: 46%; 
+	height: 20%;
+	font-size: 3vw;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #005DFF;
+	color: white;
+	font-family: "oswald";
+}
